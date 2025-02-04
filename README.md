@@ -11,10 +11,10 @@
 # .bat
 
 ```
-download-as-mp3.bat - Попытается скачать видео и конвертирует в mp3 формат после скачивания 
-download-as-m4a.bat - Попытается скачать видео и конвертирует в m4a формат после скачивания
-download-as-mp4.bat - Попытается скачать видео mp4 или конвертирует в mp4 формат после скачивания
-update.bat - Обновит утилиту yt-dlp до последней версии. (Используйте если не работает / работает некорректно)
+download-as-mp3.bat - It will try to download the video and convert it to mp3 format after downloading
+download-as-m4a.bat - It will try to download the video and convert it to m4a format after downloading
+download-as-mp4.bat - It will try to download the mp4 video or convert it to mp4 format after downloading
+update.bat - Updates the yt-dlp utility to the latest version. (Use it if it doesn't work or isn't working correctly)
 ```
 
 # sources links❤️
