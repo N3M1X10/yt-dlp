@@ -20,3 +20,6 @@ update.bat - Updates the yt-dlp utility to the latest version. (Use it if it doe
 # sources links❤️
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 - [ffmpeg](https://github.com/BtbN/FFmpeg-Builds)
+
+### languages
+- [RU](https://github.com/N3M1X10/yt-dlp/blob/main/docs/batch-guide-ru.md)
