@@ -69,19 +69,21 @@ if not exist "%yt-dlp%" (
 		pause
 		goto:close
 	)
-
-	::yt-dlp update
-	echo.&echo Checking for update . . .
-	"%yt-dlp%" --update-to master
-	if %errorlevel% neq 0 (pause)
 )
 
 
 :ask
 if "%url%"=="" (
 	echo.&set /p url=[92mEnter the URL: [0m
+
+	:yt-dlp-update
+	echo.&echo Checking for update . . .
+	"%yt-dlp%" --update-to master
+	if %errorlevel% neq 0 (pause)
+
 	goto :download
 )
+
 
 
 :download
